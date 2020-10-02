@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "My todos",
+    "slug": "todoList",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/flash.png",
+    "splash": {
+      "image": "./assets/flash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "ios": {
+      "bundleIdentifier": "com.mukundmadhav.todolist",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.mukundmadhav.todolist",
+      "versionCode": 1
+    }
+  }
+}
